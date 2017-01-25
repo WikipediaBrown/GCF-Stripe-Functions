@@ -1,0 +1,23 @@
+{
+  "name": "TestBed",
+  "description": "This is a testing area for code related to the included Cloud Functions.",
+  "version": "0.0.1",
+  "author": "WikipediaBrown",
+  "engines": {
+    "node": "~4.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "monitor": "nodemon app.js",
+    "deploy": "gcloud app deploy"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^0.6.1",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "firebase-admin": "^4.0.5",
+    "firebase-queue": "^1.6.0",
+    "request": "^2.79.0",
+    "stripe": "^4.15.0"
+  }
+}

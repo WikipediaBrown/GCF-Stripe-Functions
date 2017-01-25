@@ -1,0 +1,12 @@
+{
+  "name": "createAndPayOrder",
+  "version": "0.0.1",
+  "dependencies": {
+    "@google-cloud/datastore": "^0.6.1",
+    "firebase-admin": "^4.0.5",
+    "request": "^2.79.0",
+    "stripe": "^4.15.0"
+  }
+    
+}
+
