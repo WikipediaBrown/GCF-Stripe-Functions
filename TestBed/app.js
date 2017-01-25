@@ -65,7 +65,7 @@ app.post('/test', function(req, res, next) {
 
 
   }).catch(function(error) {
-      res.send('Nigga, you aint real...')
+      res.send('Hey, who are you?')
   });
 });
 

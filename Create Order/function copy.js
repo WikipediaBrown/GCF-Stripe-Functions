@@ -48,7 +48,7 @@ exports.createOrder = function createOrder(req, res) {
       });
 
   }).catch(function(error) {
-        res.send('Nigga, you aint real...')
+        res.send('Hey, who are you?')
   });
 };
 
