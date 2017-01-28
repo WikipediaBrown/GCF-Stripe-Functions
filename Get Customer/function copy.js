@@ -88,12 +88,10 @@ exports.getCustomer = function getCustomer(req, res) {
         if (customer.email != null) {
               customerObject['email'] = customer.email
         }
-            console.log(customerObject)
-            res.json(customerObject)
-        }).catch(function(error) {
-          console.log(error)
-            res.json('User does not have a Stripe account')
-        });
+        res.json(customerObject)
+      }).catch(function(error) {
+        res.json('User does not have a Stripe account')
+      });
 
     });
 
